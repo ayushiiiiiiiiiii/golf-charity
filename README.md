@@ -186,6 +186,4 @@ npm run build
 5. Deploy frontend and backend
 6. Configure Stripe webhook endpoints
 
-## License
 
-Proprietary - Golf Charity Platform
