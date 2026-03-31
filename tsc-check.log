@@ -1,0 +1,61 @@
+﻿src/lib/api.ts(24,30): error TS2345: Argument of type 'PostgrestBuilder<any, any, false>' is not assignable to parameter of type 'Promise<{ data: any; error: any; }>'.
+  Type 'PostgrestBuilder<any, any, false>' is missing the following properties from type 'Promise<{ data: any; error: any; }>': catch, finally, [Symbol.toStringTag]
+src/lib/api.ts(28,37): error TS2345: Argument of type 'PostgrestBuilder<any, any, false>' is not assignable to parameter of type 'Promise<{ data: any; error: any; }>'.
+  Type 'PostgrestBuilder<any, any, false>' is missing the following properties from type 'Promise<{ data: any; error: any; }>': catch, finally, [Symbol.toStringTag]
+src/lib/api.ts(33,34): error TS2345: Argument of type 'PostgrestFilterBuilder<any, any, any, null, "subscriptions", unknown, "PATCH">' is not assignable to parameter of type 'Promise<{ data: any; error: any; }>'.
+  Type 'PostgrestFilterBuilder<any, any, any, null, "subscriptions", unknown, "PATCH">' is missing the following properties from type 'Promise<{ data: any; error: any; }>': catch, finally, [Symbol.toStringTag]
+src/lib/api.ts(37,11): error TS2345: Argument of type 'PostgrestFilterBuilder<any, any, any, any[], "scores", unknown, "POST">' is not assignable to parameter of type 'Promise<{ data: any; error: any; }>'.
+  Type 'PostgrestFilterBuilder<any, any, any, any[], "scores", unknown, "POST">' is missing the following properties from type 'Promise<{ data: any; error: any; }>': catch, finally, [Symbol.toStringTag]
+src/lib/api.ts(38,25): error TS2345: Argument of type 'PostgrestFilterBuilder<any, any, any, any[], "scores", unknown, "GET">' is not assignable to parameter of type 'Promise<{ data: any; error: any; }>'.
+  Type 'PostgrestFilterBuilder<any, any, any, any[], "scores", unknown, "GET">' is missing the following properties from type 'Promise<{ data: any; error: any; }>': catch, finally, [Symbol.toStringTag]
+src/lib/api.ts(40,11): error TS2345: Argument of type 'PostgrestFilterBuilder<any, any, any, null, "scores", unknown, "PATCH">' is not assignable to parameter of type 'Promise<{ data: any; error: any; }>'.
+  Type 'PostgrestFilterBuilder<any, any, any, null, "scores", unknown, "PATCH">' is missing the following properties from type 'Promise<{ data: any; error: any; }>': catch, finally, [Symbol.toStringTag]
+src/lib/api.ts(41,37): error TS2345: Argument of type 'PostgrestFilterBuilder<any, any, any, null, "scores", unknown, "DELETE">' is not assignable to parameter of type 'Promise<{ data: any; error: any; }>'.
+  Type 'PostgrestFilterBuilder<any, any, any, null, "scores", unknown, "DELETE">' is missing the following properties from type 'Promise<{ data: any; error: any; }>': catch, finally, [Symbol.toStringTag]
+src/lib/api.ts(47,19): error TS2345: Argument of type 'PostgrestFilterBuilder<any, any, any, any[], "charities", unknown, "GET">' is not assignable to parameter of type 'Promise<{ data: any; error: any; }>'.
+  Type 'PostgrestFilterBuilder<any, any, any, any[], "charities", unknown, "GET">' is missing the following properties from type 'Promise<{ data: any; error: any; }>': catch, finally, [Symbol.toStringTag]
+src/lib/api.ts(49,42): error TS2345: Argument of type 'PostgrestBuilder<any, any, false>' is not assignable to parameter of type 'Promise<{ data: any; error: any; }>'.
+  Type 'PostgrestBuilder<any, any, false>' is missing the following properties from type 'Promise<{ data: any; error: any; }>': catch, finally, [Symbol.toStringTag]
+src/lib/api.ts(53,18): error TS2345: Argument of type 'PostgrestFilterBuilder<any, any, any, null, "profiles", unknown, "PATCH">' is not assignable to parameter of type 'Promise<{ data: any; error: any; }>'.
+  Type 'PostgrestFilterBuilder<any, any, any, null, "profiles", unknown, "PATCH">' is missing the following properties from type 'Promise<{ data: any; error: any; }>': catch, finally, [Symbol.toStringTag]
+src/lib/api.ts(55,39): error TS2345: Argument of type 'PostgrestBuilder<any, { selected_charity_id: any; charity_percentage: any; charities: any[]; }, false>' is not assignable to parameter of type 'Promise<{ data: any; error: any; }>'.
+  Type 'PostgrestBuilder<any, { selected_charity_id: any; charity_percentage: any; charities: any[]; }, false>' is missing the following properties from type 'Promise<{ data: any; error: any; }>': catch, finally, [Symbol.toStringTag]
+src/lib/api.ts(58,30): error TS2345: Argument of type 'PostgrestBuilder<any, any, false>' is not assignable to parameter of type 'Promise<{ data: any; error: any; }>'.
+  Type 'PostgrestBuilder<any, any, false>' is missing the following properties from type 'Promise<{ data: any; error: any; }>': catch, finally, [Symbol.toStringTag]
+src/lib/api.ts(59,30): error TS2345: Argument of type 'PostgrestFilterBuilder<any, any, any, any[], "draws", unknown, "GET">' is not assignable to parameter of type 'Promise<{ data: any; error: any; }>'.
+  Type 'PostgrestFilterBuilder<any, any, any, any[], "draws", unknown, "GET">' is missing the following properties from type 'Promise<{ data: any; error: any; }>': catch, finally, [Symbol.toStringTag]
+src/lib/api.ts(60,44): error TS2345: Argument of type 'PostgrestFilterBuilder<any, any, any, any[], "winnings", unknown, "GET">' is not assignable to parameter of type 'Promise<{ data: any; error: any; }>'.
+  Type 'PostgrestFilterBuilder<any, any, any, any[], "winnings", unknown, "GET">' is missing the following properties from type 'Promise<{ data: any; error: any; }>': catch, finally, [Symbol.toStringTag]
+src/lib/api.ts(63,30): error TS2345: Argument of type 'PostgrestFilterBuilder<any, any, any, any[], "winnings", unknown, "GET">' is not assignable to parameter of type 'Promise<{ data: any; error: any; }>'.
+  Type 'PostgrestFilterBuilder<any, any, any, any[], "winnings", unknown, "GET">' is missing the following properties from type 'Promise<{ data: any; error: any; }>': catch, finally, [Symbol.toStringTag]
+src/lib/api.ts(65,11): error TS2345: Argument of type 'PostgrestFilterBuilder<any, any, any, null, "winnings", unknown, "PATCH">' is not assignable to parameter of type 'Promise<{ data: any; error: any; }>'.
+  Type 'PostgrestFilterBuilder<any, any, any, null, "winnings", unknown, "PATCH">' is missing the following properties from type 'Promise<{ data: any; error: any; }>': catch, finally, [Symbol.toStringTag]
+src/lib/api.ts(68,58): error TS2345: Argument of type 'PostgrestFilterBuilder<any, any, any, any[], "profiles", unknown, "GET">' is not assignable to parameter of type 'Promise<{ data: any; error: any; }>'.
+  Type 'PostgrestFilterBuilder<any, any, any, any[], "profiles", unknown, "GET">' is missing the following properties from type 'Promise<{ data: any; error: any; }>': catch, finally, [Symbol.toStringTag]
+src/lib/api.ts(69,46): error TS2345: Argument of type 'PostgrestFilterBuilder<any, any, any, any[], "winnings", unknown, "GET">' is not assignable to parameter of type 'Promise<{ data: any; error: any; }>'.
+  Type 'PostgrestFilterBuilder<any, any, any, any[], "winnings", unknown, "GET">' is missing the following properties from type 'Promise<{ data: any; error: any; }>': catch, finally, [Symbol.toStringTag]
+src/lib/api.ts(71,11): error TS2345: Argument of type 'PostgrestFilterBuilder<any, any, any, null, "winnings", unknown, "PATCH">' is not assignable to parameter of type 'Promise<{ data: any; error: any; }>'.
+  Type 'PostgrestFilterBuilder<any, any, any, null, "winnings", unknown, "PATCH">' is missing the following properties from type 'Promise<{ data: any; error: any; }>': catch, finally, [Symbol.toStringTag]
+src/lib/api.ts(72,46): error TS2345: Argument of type 'PostgrestFilterBuilder<any, any, any, null, "winnings", unknown, "PATCH">' is not assignable to parameter of type 'Promise<{ data: any; error: any; }>'.
+  Type 'PostgrestFilterBuilder<any, any, any, null, "winnings", unknown, "PATCH">' is missing the following properties from type 'Promise<{ data: any; error: any; }>': catch, finally, [Symbol.toStringTag]
+src/lib/api.ts(75,27): error TS2345: Argument of type 'PostgrestFilterBuilder<any, any, any, any, "execute_monthly_draw", null, "RPC">' is not assignable to parameter of type 'Promise<{ data: any; error: any; }>'.
+  Type 'PostgrestFilterBuilder<any, any, any, any, "execute_monthly_draw", null, "RPC">' is missing the following properties from type 'Promise<{ data: any; error: any; }>': catch, finally, [Symbol.toStringTag]
+src/lib/api.ts(77,72): error TS2345: Argument of type 'PostgrestFilterBuilder<any, any, any, any[], "draws", unknown, "GET">' is not assignable to parameter of type 'Promise<{ data: any; error: any; }>'.
+  Type 'PostgrestFilterBuilder<any, any, any, any[], "draws", unknown, "GET">' is missing the following properties from type 'Promise<{ data: any; error: any; }>': catch, finally, [Symbol.toStringTag]
+src/pages/admin/DrawManagementPage.tsx(35,22): error TS18046: 'currentRes.data' is of type 'unknown'.
+src/pages/admin/DrawManagementPage.tsx(49,29): error TS2339: Property 'simulateDraw' does not exist on type '{ login: () => never; signup: () => never; logout: () => never; getCurrentUser: () => Promise<ApiResponse<unknown>>; getPlans: () => Promise<{ data: { id: string; name: string; price: number; }[]; }>; ... 21 more ...; getAdminReports: (type: "subscription" | ... 1 more ... | "draw") => Promise<...>; }'.
+src/pages/charities/CharitiesPage.tsx(33,20): error TS18046: 'res.data' is of type 'unknown'.
+src/pages/charity/CharitySelectionPage.tsx(41,20): error TS18046: 'res.data' is of type 'unknown'.
+src/pages/charity/CharitySelectionPage.tsx(42,11): error TS18046: 'res.data' is of type 'unknown'.
+src/pages/charity/CharitySelectionPage.tsx(42,28): error TS18046: 'res.data' is of type 'unknown'.
+src/pages/charity/CharitySelectionPage.tsx(43,21): error TS18046: 'res.data' is of type 'unknown'.
+src/pages/charity/CharitySelectionPage.tsx(55,11): error TS18046: 'res.data' is of type 'unknown'.
+src/pages/charity/CharitySelectionPage.tsx(56,24): error TS18046: 'res.data' is of type 'unknown'.
+src/pages/charity/CharitySelectionPage.tsx(57,23): error TS18046: 'res.data' is of type 'unknown'.
+src/pages/checkout/CheckoutPage.tsx(24,25): error TS2339: Property 'data' does not exist on type '{ url: string; }'.
+src/pages/checkout/CheckoutPage.tsx(25,46): error TS2339: Property 'data' does not exist on type '{ url: string; }'.
+src/pages/dashboard/DashboardPage.tsx(41,17): error TS18046: 'scoresRes.data' is of type 'unknown'.
+src/pages/dashboard/DashboardPage.tsx(42,23): error TS18046: 'subRes.data' is of type 'unknown'.
+src/pages/dashboard/DashboardPage.tsx(57,18): error TS18046: 'result.data' is of type 'unknown'.
+src/pages/scores/ScoresPage.tsx(31,17): error TS18046: 'res.data' is of type 'unknown'.
+src/pages/winnings/WinningsPage.tsx(34,18): error TS18046: 'res.data' is of type 'unknown'.

@@ -1,0 +1,10 @@
+﻿src/pages/charities/CharitiesPage.tsx(33,29): error TS2339: Property 'data' does not exist on type 'any[]'.
+src/pages/charity/CharitySelectionPage.tsx(41,29): error TS2339: Property 'data' does not exist on type 'any[]'.
+src/pages/charity/CharitySelectionPage.tsx(42,20): error TS2339: Property 'data' does not exist on type 'any[]'.
+src/pages/charity/CharitySelectionPage.tsx(42,37): error TS2339: Property 'data' does not exist on type 'any[]'.
+src/pages/charity/CharitySelectionPage.tsx(43,30): error TS2339: Property 'data' does not exist on type 'any[]'.
+src/pages/checkout/CheckoutPage.tsx(24,25): error TS2339: Property 'data' does not exist on type '{ url: string; }'.
+src/pages/checkout/CheckoutPage.tsx(25,46): error TS2339: Property 'data' does not exist on type '{ url: string; }'.
+src/pages/dashboard/DashboardPage.tsx(41,32): error TS2339: Property 'data' does not exist on type 'any[]'.
+src/pages/scores/ScoresPage.tsx(31,26): error TS2339: Property 'data' does not exist on type 'any[]'.
+src/pages/winnings/WinningsPage.tsx(34,27): error TS2339: Property 'data' does not exist on type 'any[]'.
